@@ -14,7 +14,8 @@ def division():
     print(10 / 5)
 
 
-add()
-sub()
-mul()
-division()
+if __name__=="__main__":
+    add()
+    sub()
+    mul()
+    division()
